@@ -764,8 +764,12 @@ footer {
         color: #fff;
         text-transform: capitalize;
         transition: 0.2s all ease;
+        font-weight: 400;
+        &:hover{
+          color: $main;
+        }
         img {
-          width: 10px;
+          width: 8px;
           object-fit: contain;
         }
         i {

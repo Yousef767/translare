@@ -795,9 +795,13 @@ footer {
   color: #fff;
   text-transform: capitalize;
   transition: 0.2s all ease;
+  font-weight: 400;
+}
+.linkGroup ul li a:hover {
+  color: #f1b70e;
 }
 .linkGroup ul li a img {
-  width: 10px;
+  width: 8px;
   -o-object-fit: contain;
      object-fit: contain;
 }
