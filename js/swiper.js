@@ -1,3 +1,20 @@
+var swiper = new Swiper(".aboutSlider", {
+  slidesPerView: 1,
+  speed:400,
+  loop:true,
+  autoplay: {
+    delay: 3000,
+    disableOnInteraction: true,
+  },
+  pagination: {
+    clickable:true,
+    el: ".swiper-pagination",
+  },
+  keyboard: {
+    enabled: true,
+  },
+});
+
 var swiper = new Swiper(".homeimageslider", {
   slidesPerView: 1,
   speed:400,
@@ -150,10 +167,13 @@ var swiper2 = new Swiper(".sw2", {
 
 const swiperContainer = document.querySelector(".sw2");
 
-swiperContainer.addEventListener("mouseenter", () => {
-  swiper2.autoplay.stop(); // Stop autoplay
-});
-
-swiperContainer.addEventListener("mouseleave", () => {
-  swiper2.autoplay.start(); 
-});
+if(swiperContainer){
+  swiperContainer.addEventListener("mouseenter", () => {
+    swiper2.autoplay.stop(); // Stop autoplay
+  });
+  
+  swiperContainer.addEventListener("mouseleave", () => {
+    swiper2.autoplay.start(); 
+  });
+  
+}
