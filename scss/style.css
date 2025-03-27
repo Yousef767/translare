@@ -239,7 +239,7 @@ nav {
   align-items: center;
 }
 .logo img {
-  width: 250px;
+  width: 230px;
   -o-object-fit: contain;
      object-fit: contain;
 }
@@ -742,7 +742,7 @@ footer {
   gap: 10px;
 }
 .footerLogo img {
-  width: 300px;
+  width: 250px;
 }
 .footerLogo p {
   padding-top: 20px;
