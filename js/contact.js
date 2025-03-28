@@ -1,6 +1,6 @@
 (function () {
   emailjs.init({
-    publicKey: "zVvvTj4BH6P-T2ogZ",
+    publicKey: "5seZ08LbgPIWKA4A2",
   });
 })();
 
@@ -66,7 +66,7 @@ form.addEventListener("submit", (event) => {
   };
 
   emailjs
-    .send("service_ixod99b", "template_cvu9dya", formData)
+    .send("service_zvj83gp", "template_dm6w0py", formData)
     .then((response) => {
       message("Form submitted successfully", false);
       console.log("Success:", response);
