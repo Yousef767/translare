@@ -4,7 +4,7 @@ document.querySelector('footer').innerHTML = `
         <div class="footerLogo">
           <img src="../media/footerLogo.png" alt="">
           <p>
-            Based in Egypt, the vibrant hub of the Middle East, TRANSLIE has established itself as a premier localization
+            Based in Egypt, the vibrant hub of the Middle East, TRANSLARE has established itself as a premier localization
             company, specializing in delivering high-quality, professional translation services to clients across the
             Middle East and Africa.
   
@@ -44,8 +44,8 @@ document.querySelector('footer').innerHTML = `
             <ul>
               <li><a href="tel:+20100xxxxxxx" target="_blank"><img src="../media/icons/call.png" alt=""> +20100xxxxxxx </a>
               </li>
-              <li><a href="mailto:info@TRANSLIE.com" target="_blank"><img src="../media/icons/mail.png" alt="">
-                  info@TRANSLIE.com</a></li>
+              <li><a href="mailto:info@TRANSLARE.com" target="_blank"><img src="../media/icons/mail.png" alt="">
+                  info@TRANSLARE.com</a></li>
             </ul>
             <div class="media">
               <a href="##" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
@@ -58,7 +58,7 @@ document.querySelector('footer').innerHTML = `
       </div>
       <div class="box copyInner">
         <div class="copy">
-          Copyright © 2022 <strong>TRANSLIE</strong> | All rights reserved.
+          Copyright © 2022 <strong>TRANSLARE</strong> | All rights reserved.
         </div>
       </div>
     </footer>

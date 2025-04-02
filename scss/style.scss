@@ -257,8 +257,11 @@ nav {
   display: flex;
   align-items: center;
   img {
-    width: 230px;
+    width: 270px;
     object-fit: contain;
+    @media (max-width:400px) {
+      width: 250px;
+    }
   }
 }
 
@@ -714,7 +717,7 @@ footer {
   flex-direction: column;
   gap: 10px;
   img {
-    width: 250px;
+    width: 270px;
   }
   p {
     padding-top: 20px;
