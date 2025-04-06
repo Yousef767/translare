@@ -7,7 +7,26 @@ document.querySelector('nav').innerHTML = `
         <div class="ls">
           <ul class="mainLinks">
             <li><a class="link" href="../index.html">Home</a></li>
-            <li><a class="link" href="../about.html"> About Us</a></li>
+          <li class="drop">
+              <a class="link" href="js:;"> About Us <i class="fa-light fa-angle-down"></i></a>
+              <div class="dropMenu">
+                <div class="box dropItems">
+                  <a href="../about.html">
+                    <i class="fa-light fa-user-group"></i>
+                    About Us
+                  </a>
+                  <a href="../our-workflow-process.html">
+                    <i class="fa-light fa-diagram-project"></i>
+                    Our Workflow Process
+                  </a>
+                  <a href="../quality-control-process.html">
+                    <i class="fa-light fa-clipboard-check"></i>
+                    Quality Control Process
+                  </a>
+                </div>
+                
+              </div>
+            </li>
             <li class="drop">
               <a class="link" href="javascript:;">Services <i class="fa-light fa-angle-down"></i></a>
               <div class="dropMenu">
