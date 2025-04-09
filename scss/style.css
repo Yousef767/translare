@@ -990,9 +990,6 @@ footer {
   }
 }
 @media (max-width: 421px) {
-  .footerLogo img {
-    width: 200px;
-  }
   .footerLogo .aboutText {
     width: 100%;
   }
