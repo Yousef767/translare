@@ -1,41 +1,27 @@
 document.querySelector('footer').innerHTML = `
-<footer>
+
       <div class="box footer">
         <div class="footerLogo">
           <img src="../media/footerLogo.png" alt="">
-          <p>
-            Based in Egypt, the vibrant hub of the Middle East, TRANSLARE has established itself as a premier localization
-            company, specializing in delivering high-quality, professional translation services to clients across the
-            Middle East and Africa.
-  
-          </p>
-          <p>
-  
-            Our team consists of certified and experienced native translators, equipped with the expertise and
-            knowledge to meet the unique demands and requirements of even the most discerning clients.
-          </p>
         </div>
         <div class="footerLinkGroup">
           <div class="linkGroup">
-            <h2> Services</h2>
+            <h2> Helpful Links</h2>
             <ul>
-              <li><a href="./translation.html">
-                  <img src="../media/icons/footerLink.svg" alt=""> Translation
+              <li><a href="../index.html">
+                  <img src="../media/icons/footerLink.svg" alt="">  Home
                 </a></li>
-              <li><a href="./localization.html">
-                  <img src="../media/icons/footerLink.svg" alt=""> Localization
+              <li><a href="../about.html">
+                  <img src="../media/icons/footerLink.svg" alt=""> About Us
                 </a></li>
-              <li><a href="./multimedia.html">
-                  <img src="../media/icons/footerLink.svg" alt=""> Multimedia
-                </a></li>
-              <li><a href="./interpretation.html">
-                  <img src="../media/icons/footerLink.svg" alt=""> Interpretation
-                </a></li>
-              <li><a href="./transcreation.html">
-                  <img src="../media/icons/footerLink.svg" alt=""> Transcreation
-                </a></li>
-              <li><a href="./mtpe.html">
-                  <img src="../media/icons/footerLink.svg" alt=""> MTPE
+                  <li><a href="../services.html">
+                <img src="../media/icons/footerLink.svg" alt=""> Services
+              </a></li>
+            <li><a href="../industries.html">
+                <img src="../media/icons/footerLink.svg" alt=""> Industries
+              </a></li>
+              <li><a href="../contact.html">
+                  <img src="../media/icons/footerLink.svg" alt=""> Contact Us
                 </a></li>
             </ul>
           </div>
@@ -48,8 +34,10 @@ document.querySelector('footer').innerHTML = `
                   info@TRANSLARE.com</a></li>
             </ul>
             <div class="media">
-              <a href="##" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
-              <a href="##" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+              <a href="##" target="_blank"><i
+                  class="fa-brands fa-facebook-f"></i></a>
+              <a href="##" target="_blank"><i
+                  class="fa-brands fa-linkedin-in"></i></a>
               <a href="##"><i class="fa-brands fa-instagram"></i></a>
               <a href="##"><i class="fa-brands fa-whatsapp"></i></a>
             </div>
@@ -61,5 +49,5 @@ document.querySelector('footer').innerHTML = `
           Copyright © 2022 <strong>TRANSLARE</strong> | All rights reserved.
         </div>
       </div>
-    </footer>
+  
 `;
