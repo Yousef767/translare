@@ -6754,4 +6754,59 @@ input[type=range]::-webkit-slider-thumb {
 .servicesinn2 .service h2 {
   font-size: 1rem;
   padding: 0;
+}
+
+.flag-icon {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.counts {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px 50px 20px;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.count {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 15px;
+  border-radius: 25px;
+  border: 1px solid #F1B70E;
+  color: #363636;
+  transition: 0.3s all ease;
+  cursor: pointer;
+  background-color: rgba(241, 184, 14, 0.2);
+}
+.count:hover {
+  background-color: #F1B70E;
+  color: #fff;
+}
+.count span {
+  width: 30px;
+  height: 30px;
+  background-size: contain;
+  background-position: center;
+}
+
+.about img {
+  height: 350px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.about .ab2 {
+  flex-grow: 1;
+}
+.about .ab2 article {
+  gap: 5px;
+}
+.about .ab2 article p {
+  font-size: 1rem;
 }/*# sourceMappingURL=style.css.map */

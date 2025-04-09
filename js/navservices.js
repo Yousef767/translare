@@ -95,6 +95,7 @@ document.querySelector('nav').innerHTML = `
               </div>
 
             </li>
+            <li><a class="link" href="../languages.html"> Languages</a></li>
             <li><a class="link" href="../contact.html"> Contact Us</a></li>
           </ul>
         </div>

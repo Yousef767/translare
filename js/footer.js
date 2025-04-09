@@ -20,6 +20,9 @@ document.querySelector('footer').innerHTML = `
             <li><a href="../industries.html">
                 <img src="../media/icons/footerLink.svg" alt=""> Industries
               </a></li>
+                <li><a href="../languages.html">
+                <img src="../media/icons/footerLink.svg" alt=""> Languages
+              </a></li>
               <li><a href="../contact.html">
                   <img src="../media/icons/footerLink.svg" alt=""> Contact Us
                 </a></li>
