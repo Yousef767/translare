@@ -49,7 +49,7 @@ document.querySelector('footer').innerHTML = `
       </div>
       <div class="box copyInner">
         <div class="copy">
-          Copyright © 2001 <strong>TRANSLARE</strong> | All rights reserved.
+          Copyright © 2005 <strong>TRANSLARE</strong> | All rights reserved.
         </div>
       </div>
   
