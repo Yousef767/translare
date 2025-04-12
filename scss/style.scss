@@ -6521,6 +6521,9 @@ input[type="range"]::-webkit-slider-thumb {
       height: 4px;
       background-color: $main
     }
+    @media (max-width:500px){
+      font-size: 1.3rem;
+    }
   }
 }
 .centerktx{

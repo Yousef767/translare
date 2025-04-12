@@ -6820,6 +6820,11 @@ input[type=range]::-webkit-slider-thumb {
   height: 4px;
   background-color: #f1b70e;
 }
+@media (max-width: 500px) {
+  .counts h1 {
+    font-size: 1.3rem;
+  }
+}
 
 .centerktx {
   display: flex;
