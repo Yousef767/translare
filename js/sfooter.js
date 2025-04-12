@@ -2,8 +2,10 @@ document.querySelector('footer').innerHTML = `
 
       <div class="box footer">
         <div class="footerLogo">
-          <img src="../media/footerLogo.png" alt="">
-        </div>
+        <img src="../media/footerLogo.png" alt="">
+        <p><strong>About Us</strong></p>
+        <p>TRANSLARE is a leading translation and localization company that bridges worlds through language. With over 20 years of proven expertise, we deliver high-quality language solutions that help brands connect with global audiences. Our team of expert linguists, cultural consultants, and technology specialists is dedicated to accuracy, consistency, and cultural relevance across more than 90 languages.</p>
+      </div>
         <div class="footerLinkGroup">
           <div class="linkGroup">
             <h2> Helpful Links</h2>
@@ -31,8 +33,10 @@ document.querySelector('footer').innerHTML = `
           <div class="linkGroup cont">
             <h2> Contact Us</h2>
             <ul>
-              <li><a href="tel:+20100xxxxxxx" target="_blank"><img src="../media/icons/call.png" alt=""> +20100xxxxxxx </a>
-              </li>
+            <li><a href="https://maps.app.goo.gl/yoZGL3BNCdhifibt6" target="_blank"><img src="../media/icons/location.png" alt="">23 Gamal Abd El-Naser St., Al Haram, Giza, Egypt</a>
+            </li>
+            <li><a href="tel:+20235845738" target="_blank"><img src="../media/icons/call.png" alt=""> +2-0235845738 </a>
+            </li>
             <li><a href="mailto:contact@TRANSLARE.com" target="_blank"><img src="../media/icons/mail.png" alt="">
               Contact at translare.com</a></li>
             </ul>
