@@ -1831,8 +1831,8 @@ header h1 {
   background-color: transparent;
   height: 45px;
   background-color: #fff;
-  border-radius: 0;
-  border-left: 5px solid #f1b70e;
+  border-radius: 5px;
+  border: 2px solid #f1b70e;
   text-align: left;
 }
 .input input::-moz-placeholder, .input select::-moz-placeholder, .input textarea::-moz-placeholder {
