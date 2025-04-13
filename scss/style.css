@@ -5969,6 +5969,14 @@ input[type=range]::-webkit-slider-thumb {
   justify-content: flex-start;
   overflow: hidden;
 }
+.servicesinn .noEffect ul {
+  padding-left: 20px;
+}
+.servicesinn .noEffect ul li {
+  color: #363636;
+  font-size: 0.9rem;
+  opacity: 0.7;
+}
 .servicesinn .noEffect h2 {
   padding-top: 20px;
 }
@@ -6056,13 +6064,13 @@ input[type=range]::-webkit-slider-thumb {
   flex-direction: column;
   width: 250px;
   text-align: center;
-  align-items: flex-start;
+  align-items: center;
   gap: 10px;
   flex-grow: 1;
   border-radius: 10px;
   padding: 40px 20px;
   color: rgba(255, 255, 255, 0.537254902) !important;
-  text-align: left;
+  text-align: center;
 }
 .why-us .article p strong {
   color: #fff;
@@ -6071,6 +6079,7 @@ input[type=range]::-webkit-slider-thumb {
 }
 .why-us .article p .st {
   padding-top: 10px;
+  text-align: center;
 }
 .why-us .article p .st2 {
   font-size: 1rem;

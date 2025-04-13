@@ -5702,6 +5702,14 @@ input[type="range"]::-webkit-slider-thumb {
     overflow: initial;
     justify-content: flex-start;
     overflow: hidden;
+    ul{
+      padding-left: 20px;
+      li{
+        color: $blackText;
+        font-size: .9rem;
+        opacity: .7;
+      }
+    }
     h2 {
       // color: $main;
       // color: #fff;
@@ -5806,13 +5814,13 @@ input[type="range"]::-webkit-slider-thumb {
       flex-direction: column;
       width: 250px;
       text-align: center;
-      align-items: flex-start;
+      align-items:center;
       gap: 10px;
       flex-grow: 1;
       border-radius: 10px;
       padding: 40px 20px;
       color: #ffffff89 !important;
-      text-align: left;
+      text-align: center;
       strong {
         color: #fff;
         font-size: 1.2rem;
@@ -5820,6 +5828,7 @@ input[type="range"]::-webkit-slider-thumb {
       }
       .st {
         padding-top: 10px;
+        text-align: center;
       }
       .st2 {
         font-size: 1rem;
