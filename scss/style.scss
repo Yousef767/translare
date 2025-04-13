@@ -6605,3 +6605,12 @@ input[type="range"]::-webkit-slider-thumb {
     }
   }
 }
+.stepNum{
+  color: $main;
+  font-size: 1.5rem;
+  padding-bottom: 10px;
+}
+.noEffectwide{
+  width: 400px !important;
+  flex-grow: 1;
+}
