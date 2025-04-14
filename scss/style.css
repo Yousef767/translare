@@ -3074,14 +3074,24 @@ header h1 {
   font-size: 2.5rem;
   padding-bottom: 10px;
   color: #f1b70e;
-  max-width: 600px;
+  max-width: 800px;
   -moz-text-align-last: left;
        text-align-last: left;
 }
+@media (max-width: 1000px) {
+  .ktx h1 {
+    max-width: 600px;
+  }
+}
 .ktx p {
-  max-width: 600px;
+  max-width: 700px;
   font-size: 1.2rem;
   font-weight: 500;
+}
+@media (max-width: 1000px) {
+  .ktx p {
+    max-width: 600px;
+  }
 }
 
 @media (max-width: 700px) {

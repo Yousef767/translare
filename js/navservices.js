@@ -59,7 +59,7 @@ document.querySelector('nav').innerHTML = `
                     <i class="fa-light fa-globe-pointer"></i>
                     Website & App Testing
                   </a>
-                  <a href="./multimedia.html">
+                  <a href="./subtitling-voice-over.html">
                     <i class="fa-light fa-closed-captioning"></i> 
                     Subtitling & Voice-over
                   </a>
