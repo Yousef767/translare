@@ -32,22 +32,40 @@ document.querySelector('nav').innerHTML = `
               <div class="dropMenu">
                 <div class="box dropItems">
                   <a href="./translation.html">
-                    <i class="fa-light fa-language"></i> Translation
+                    <i class="fa-light fa-language"></i>
+                    Translation
                   </a>
                   <a href="./localization.html">
-                    <i class="fa-light fa-globe-americas"></i> Localization
-                  </a>
-                  <a href="./multimedia.html">
-                    <i class="fa-light fa-photo-film-music"></i> Multimedia
+                    <i class="fa-light fa-globe-americas"></i> 
+                    Localization
                   </a>
                   <a href="./interpretation.html">
-                    <i class="fa-light fa-head-side-gear"></i> Interpretation
-                  </a>
-                  <a href="./transcreation.html">
-                    <i class="fa-light fa-lightbulb-on"></i> Transcreation
+                    <i class="fa-light fa-headphones"></i> 
+                    Interpretation
                   </a>
                   <a href="./mtpe.html">
-                    <i class="fa-light fa-user-robot"></i> MTPE
+                    <i class="fa-light fa-robot"></i> 
+                    MT Post-Editing
+                  </a>
+                  <a href="./desktop-publishing.html">
+                    <i class="fa-light fa-file-pen"></i> 
+                    Desktop Publishing
+                  </a>
+                  <a href="./transcription.html">
+                    <i class="fa-light fa-keyboard"></i> 
+                    Transcription
+                  </a>
+                  <a href="./website-app-testing.html">
+                    <i class="fa-light fa-globe-pointer"></i>
+                    Website & App Testing
+                  </a>
+                  <a href="./multimedia.html">
+                    <i class="fa-light fa-closed-captioning"></i> 
+                    Subtitling & Voice-over
+                  </a>
+                  <a href="./transcreation.html">
+                    <i class="fa-light fa-lightbulb-on"></i>
+                    Transcreation
                   </a>
                 </div>
               </div>

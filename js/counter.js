@@ -27,16 +27,7 @@ function animateCounters() {
 }
 
 function getOptionHTML(option) {
-  if (option === "+") {
-    return `<div style="color: #fff;">+</div>`;
-  } else if (option === "K") {
-    return `<div style="color: #fff;">K</div>`;
-  } else if (option === "م" || option === "m") {
-    const fulloption =
-      option === "م" ? `<sup>2</sup>${option}` : `${option}<sup>2</sup>`;
-    return `<p style="color: #fff;">${fulloption}</p>`;
-  }
-  return `<div style="color: #fff;"></div>`;
+  return `<div style="color: #fff;">${option}</div>`;
 }
 
 document.addEventListener("DOMContentLoaded", () => {
