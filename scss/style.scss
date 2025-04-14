@@ -5893,8 +5893,9 @@ input[type="range"]::-webkit-slider-thumb {
   @include flex();
   background-color: transparent;
   width: 130px;
-  height: 90px;
+  height: 130px;
   object-fit: contain;
+  // filter: drop-shadow(0px 0px 10px #00000010)
 }
 .flex-sli {
   @include flex();
