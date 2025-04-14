@@ -1,6 +1,6 @@
 let years = document.querySelectorAll("#years");
 
-const startYear = 2001;
+const startYear = 2005;
 const currentYear = new Date().getFullYear();
 
 years.forEach((e, index) => {
