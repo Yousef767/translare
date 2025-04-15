@@ -2249,7 +2249,7 @@ header {
   text-align: center;
   h2 {
     line-height: 1;
-    color: $main;
+    
     font-size: 1rem;
     font-weight: 400;
     color: #fff;
@@ -2260,6 +2260,11 @@ header {
     flex-direction: row-reverse;
     font-size: 3rem;
     font-weight: 800;
+    color: $main;
+    div{
+      color: $main;
+
+    }
   }
   p {
     padding-bottom: 30px;

@@ -27,7 +27,7 @@ function animateCounters() {
 }
 
 function getOptionHTML(option) {
-  return `<div style="color: #fff;">${option}</div>`;
+  return `<div>${option}</div>`;
 }
 
 document.addEventListener("DOMContentLoaded", () => {

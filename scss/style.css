@@ -2344,7 +2344,6 @@ header h1 {
 }
 .counter h2 {
   line-height: 1;
-  color: #f1b70e;
   font-size: 1rem;
   font-weight: 400;
   color: #fff;
@@ -2355,6 +2354,10 @@ header h1 {
   flex-direction: row-reverse;
   font-size: 3rem;
   font-weight: 800;
+  color: #f1b70e;
+}
+.counter span div {
+  color: #f1b70e;
 }
 .counter p {
   padding-bottom: 30px;
