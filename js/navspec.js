@@ -73,11 +73,8 @@ document.querySelector('nav').innerHTML = `
             </li>
             <li class="drop">
               <a class="link active" href="javascript:;"> Industries <i class="fa-light fa-angle-down"></i></a>
-              <div class="dropMenu">
+  <div class="dropMenu">
                 <div class="box dropItems">
-                  <a href="./technology.html">
-                    <i class="fa-light fa-cogs"></i> Technology
-                  </a>
                   <a href="./automotive.html">
                     <i class="fa-light fa-car"></i> Automotive
                   </a>
@@ -88,10 +85,10 @@ document.querySelector('nav').innerHTML = `
                     <i class="fa-light fa-book-open"></i> Education & E-Learning
                   </a>
                   <a href="./financial.html">
-                    <i class="fa-light fa-coins"></i>Banking & Financial
+                    <i class="fa-light fa-coins"></i> Finance
                   </a>
                   <a href="./games.html">
-                    <i class="fa-light fa-gamepad"></i> Games
+                    <i class="fa-light fa-gamepad"></i> Gaming
                   </a>
                   <a href="./legal.html">
                     <i class="fa-light fa-balance-scale"></i> Legal
@@ -105,11 +102,13 @@ document.querySelector('nav').innerHTML = `
                   <a href="./travel-hospitality.html">
                     <i class="fa-light fa-plane-departure"></i> Travel & Hospitality
                   </a>
-                  <a href="./manufacturing-engineering.html">
-                    <i class="fa-light fa-industry"></i> Manufacturing & Engineering
-                  </a>                  
+                  <a href="./manufacturing.html">
+                    <i class="fa-light fa-industry"></i> Manufacturing
+                  </a>
+                  <a href="./telecommunications.html">
+                    <i class="fa-light fa-tower-cell"></i> Telecommunications
+                  </a>
                 </div>
-
               </div>
 
             </li>
