@@ -108,6 +108,9 @@ document.querySelector('nav').innerHTML = `
                   <a href="./telecommunications.html">
                     <i class="fa-light fa-tower-cell"></i> Telecommunications
                   </a>
+                  <a href="./healthcare.html">
+                    <i class="fa-light fa-hands-holding-heart"></i> Healthcare
+                  </a>
                 </div>
               </div>
 
