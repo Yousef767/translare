@@ -4,7 +4,14 @@ document.querySelector('footer').innerHTML = `
         <div class="footerLogo">
         <img src="../media/footerLogo.png" alt="">
         <p><strong>About Us</strong></p>
-        <p>TRANSLARE is a leading translation and localization company that bridges worlds through language. With over 20 years of proven expertise, we deliver high-quality language solutions that help brands connect with global audiences. Our team of expert linguists, cultural consultants, and technology specialists is dedicated to accuracy, consistency, and cultural relevance across more than 90 languages.</p>
+          <p>
+                TRANSLARE is a leading translation and localization company with over <span id="years"></span> years of proven expertise in helping
+          brands connect with global audiences. We deliver high-quality, culturally nuanced language solutions across
+          120+ languages. Our team of native linguists, cultural consultants, and technology specialists ensures
+          precision, consistency, and cultural relevance. ISO-certified and deeply specialized in Middle Eastern and
+          African languages, we also offer expert coverage of Asian and European languages—providing solutions that meet
+          global standards and regional expectations.
+          </p>
       </div>
         <div class="footerLinkGroup">
           <div class="linkGroup">
