@@ -11,6 +11,16 @@ if (document.querySelector("#counter")) {
     .querySelector("#counter")
     .setAttribute("data-num", currentYear - startYear);
 }
+const serOrInd = window.location.pathname.split("/")[1];
+if (serOrInd === "services" || serOrInd === "industries") {
+  const li = document.querySelectorAll(".aboutPageText li");
+  li.forEach((e) => {
+    const i = document.createElement("i");
+    i.className = "fa-light fa-circle-check";
+    e.prepend(i);
+  });
+}
+
 let links = document.querySelectorAll(".link");
 
 // links.forEach((e) => {

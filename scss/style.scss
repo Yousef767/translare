@@ -725,6 +725,9 @@ footer {
     color: #fff;
     font-size: 0.8rem;
     font-weight: 400;
+    #years {
+      color: #fff !important;
+    }
   }
   strong {
     font-size: 1.2rem;
@@ -4927,13 +4930,16 @@ header {
         @media (max-width: 500px) {
           font-size: 1rem;
         }
-        &::before {
-          content: "";
-          display: block;
-          width: 10px;
-          height: 2px;
-          border-radius: 5px;
-          background-color: $main;
+        // &::before {
+        //   content: "";
+        //   display: block;
+        //   width: 10px;
+        //   height: 2px;
+        //   border-radius: 5px;
+        //   background-color: $main;
+        // }
+        i{
+          color: $main;
         }
       }
     }
@@ -6650,4 +6656,7 @@ input[type="range"]::-webkit-slider-thumb {
       margin: 0;
     }
   }
+}
+.cmain{
+  color: $main !important;
 }
