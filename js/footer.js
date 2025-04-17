@@ -5,7 +5,7 @@ document.querySelector('footer').innerHTML = `
             <img src="../media/footerLogo.png" alt="">
             <p><strong>About Us</strong></p>
             <p>
-                  <strong>Translare</strong> is a leading translation and localization company with over <span id="years"></span> years of proven expertise in helping
+                <strong>Translare</strong> is a leading translation and localization company with over <span id="years"></span> years of proven expertise in helping
           brands connect with global audiences. We deliver high-quality, culturally nuanced language solutions across
           120+ languages. Our team of native linguists, cultural consultants, and technology specialists ensures
           precision, consistency, and cultural relevance. ISO-certified and deeply specialized in Middle Eastern and
