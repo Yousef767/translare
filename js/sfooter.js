@@ -5,7 +5,7 @@ document.querySelector('footer').innerHTML = `
         <img src="../media/footerLogo.png" alt="">
         <p><strong>About Us</strong></p>
           <p>
-                TRANSLARE is a leading translation and localization company with over <span id="years"></span> years of proven expertise in helping
+                <strong>Translare</strong> is a leading translation and localization company with over <span id="years"></span> years of proven expertise in helping
           brands connect with global audiences. We deliver high-quality, culturally nuanced language solutions across
           120+ languages. Our team of native linguists, cultural consultants, and technology specialists ensures
           precision, consistency, and cultural relevance. ISO-certified and deeply specialized in Middle Eastern and
@@ -44,7 +44,7 @@ document.querySelector('footer').innerHTML = `
             </li>
             <li><a href="tel:+20235845738" target="_blank"><img src="../media/icons/call.png" alt=""> +2-0235845738 </a>
             </li>
-            <li><a href="mailto:contact@TRANSLARE.com" target="_blank"><img src="../media/icons/mail.png" alt="">
+            <li><a href="mailto:contact@translare.com" target="_blank"><img src="../media/icons/mail.png" alt="">
               Contact at translare.com</a></li>
             </ul>
             <div class="media">
@@ -58,7 +58,7 @@ document.querySelector('footer').innerHTML = `
       </div>
       <div class="box copyInner">
         <div class="copy">
-          Copyright © 2005 <strong>TRANSLARE</strong> | All rights reserved.
+          Copyright © 2005 <strong>Translare</strong> | All rights reserved.
         </div>
       </div>
   
