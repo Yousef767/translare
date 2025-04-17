@@ -6964,4 +6964,13 @@ input[type=range]::-webkit-slider-thumb {
 
 .cmain {
   color: #f1b70e !important;
+}
+
+.lines-7 {
+  display: -webkit-box;
+  -webkit-line-clamp: 7; /* number of lines to show */
+  line-clamp: 7;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }/*# sourceMappingURL=style.css.map */
