@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+  </head>
+  <body>
+    <button onclick="sendEmail()">Send Test Email</button>
+
+    <script>
+      function sendEmail() {
+        Email.send({
+          Host: "mail.translare.com", // or your server's mail hostname
+          Username: "contact@translare.com",
+          Password: "fzyzD87G#-74",
+          To: "your@email.com", // change this to the recipient
+          From: "contact@translare.com",
+          Subject: "SMTP Test",
+          Body: "This is a test email sent from contact@translare.com using Email.js",
+          Port: 465
+        })
+        .then(message => alert("Email sent successfully: " + message))
+        .catch(error => alert("Error sending email: " + error));
+      }
+    </script>
+  </body>
+</html>
