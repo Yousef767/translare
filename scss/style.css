@@ -759,6 +759,10 @@ footer {
 .footerLogo p #years {
   color: #fff !important;
 }
+.footerLogo p strong {
+  font-size: 1em;
+  color: #fff;
+}
 .footerLogo strong {
   font-size: 1.2rem;
   color: #fff;
