@@ -111,6 +111,12 @@ document.querySelector('nav').innerHTML = `
                   <a href="./technology.html">
                     <i class="fa-light fa-microchip"></i>Technology 
                   </a>
+                    <a href="./healthcare.html">
+                    <i class="fa-light fa-hands-holding-heart"></i> Healthcare
+                  </a>
+                  <a href="./business-consulting.html">
+                    <i class="fa-light fa-briefcase"></i> Business & Consulting 
+                  </a>
                 </div>
               </div>
 
